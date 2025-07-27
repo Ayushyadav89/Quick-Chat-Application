@@ -4,11 +4,11 @@ import help_icon from './help_icon.png'
 import logo_icon from './logo_icon.svg'
 import logo_big from './logo_big.svg'
 import logo from './logo.png'
-import profile_richard from './profile_richard.png'
-import profile_alison from './profile_alison.png'
-import profile_enrique from './profile_enrique.png'
-import profile_marco from './profile_marco.png'
-import profile_martin from './profile_martin.png'
+import profile_ayush from './profile_ayush.jpg'
+import profile_meet from './profile_meet.jpg'
+import profile_tiwari from './profile_tiwari.jpg'
+import profile_pandey from './profile_pandey.jpg'
+import profile_bharat from './profile_bharat.jpg'
 import search_icon from './search_icon.png'
 import send_button from './send_button.svg'
 import menu_icon from './menu_icon.png'
@@ -35,8 +35,8 @@ const assets = {
     arrow_icon,
     code,
     bgImage,
-    profile_martin
-}
+    profile_ayush
+};
 
 export default assets;
 
@@ -46,36 +46,36 @@ export const userDummyData = [
     {
         "_id": "680f50aaf10f3cd28382ecf2",
         "email": "test1@greatstack.dev",
-        "fullName": "Alison Martin",
-        "profilePic": profile_alison,
+        "fullName": "Ayush Yadav",
+        "profilePic": profile_ayush,
         "bio": "Hi Everyone, I am Using QuickChat",
     },
     {
         "_id": "680f50e4f10f3cd28382ecf9",
         "email": "test2@greatstack.dev",
-        "fullName": "Martin Johnson",
-        "profilePic": profile_martin,
+        "fullName": "Bharat Thakur",
+        "profilePic": profile_bharat,
         "bio": "Hi Everyone, I am Using QuickChat",
     },
     {
         "_id": "680f510af10f3cd28382ed01",
         "email": "test3@greatstack.dev",
-        "fullName": "Enrique Martinez",
-        "profilePic": profile_enrique,
+        "fullName": "Ayush Tiwari",
+        "profilePic": profile_tiwari,
         "bio": "Hi Everyone, I am Using QuickChat",
     },
     {
         "_id": "680f5137f10f3cd28382ed10",
         "email": "test4@greatstack.dev",
-        "fullName": "Marco Jones",
-        "profilePic": profile_marco,
+        "fullName": "Ayush Pandey",
+        "profilePic": profile_pandey,
         "bio": "Hi Everyone, I am Using QuickChat",
     },
     {
         "_id": "680f516cf10f3cd28382ed11",
         "email": "test5@greatstack.dev",
-        "fullName": "Richard Smith",
-        "profilePic": profile_richard,
+        "fullName": "Meet Awasthi",
+        "profilePic": profile_meet,
         "bio": "Hi Everyone, I am Using QuickChat",
     }
 ]
