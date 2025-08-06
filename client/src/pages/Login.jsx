@@ -44,6 +44,11 @@ function Login() {
         <button type='submit' className='py-3 bg-gradient-to-r from-purple-400 to-violet-600 text-white rounded-md cursor-pointer'>
           {currState === 'Sign Up' ? "Create Account" : "Login Now"}
         </button>
+
+        <div className='flex items-center gap-2 text-sm text-gray-500'>
+          <input type="checkbox" />
+          <p>Agree to the terms of use & privacy policy.</p>
+        </div>
       </form>
 
     </div>
