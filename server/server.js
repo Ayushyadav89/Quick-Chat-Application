@@ -14,31 +14,28 @@ const server = http.createServer(app)
 
 // Initialize socket.io server
 export const io = new Server(server, {
-    cors: {origin: "*"}
-})
+    cors: { origin: "*" }
+});
+app.set('io', io); // Attach io to the app
 
 // Store online Users
-export const userSocketMap = {}; //{userId: socketId}
+const userSocketMap = {};
+app.set('userSocketMap', userSocketMap);
 
-//socket.io connection handler
 io.on("connection", (socket) => {
     const userId = socket.handshake.query.userId;
-    console.log("User Connected", userId);
+    if (userId) userSocketMap[userId] = socket.id;
 
-    if(userId) userSocketMap[userId] = socket.id;
-
-    //Emit online users to all connected client
     io.emit("getOnlineUsers", Object.keys(userSocketMap));
 
     socket.on("disconnect", () => {
-        console.log("User Discoonected", userId);
-        delete userSocketMap[userId];
-        io.emit("getOnlineUsers", Object.keys(userSocketMap))
-    })
-})
+        if (userId) delete userSocketMap[userId];
+        io.emit("getOnlineUsers", Object.keys(userSocketMap));
+    });
+});
 
 app.use(express.json({limit: "4mb"}))
-app.use(cors())
+app.use(cors({ origin: "*" }))
 
 // Route setup
 app.use("/api/status", (req, res) => res.send("Server is Live"))
