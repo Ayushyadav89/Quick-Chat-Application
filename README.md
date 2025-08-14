@@ -59,6 +59,8 @@ It allows users to send and receive messages instantly in a clean, responsive in
 - npm install
 - npm run server
 
+--- 
+
 ## Set Environment variable
 - .env file in both client and server folder
 
