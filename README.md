@@ -43,7 +43,7 @@ It allows users to send and receive messages instantly in a clean, responsive in
 ## ⚙️ Installation & Setup
 
 ### **1. Clone the repository**
-- git clone https://github.com/yourusername/quick-chat.git
+- git clone https://github.com/Ayushyadav89/Quick-Chat-Application.git
 - cd quick-chat
 
 
@@ -85,4 +85,5 @@ It allows users to send and receive messages instantly in a clean, responsive in
 - B.Tech CSE | MERN Stack Developer
 - [LinkedIn](https://www.linkedin.com/in/ayush-yadav-143536253/) | [Github](https://github.com/Ayushyadav89)
 - Mail Id - 2k22.cse.2213307@gmail.com
+
 
