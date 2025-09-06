@@ -43,7 +43,7 @@ It allows users to send and receive messages instantly in a clean, responsive in
 ## ⚙️ Installation & Setup
 
 ### **1. Clone the repository**
-- git clone https://github.com/yourusername/quick-chat.git
+- git clone https://github.com/Ayushyadav89/Quick-Chat-Application.git
 - cd quick-chat
 
 
@@ -67,10 +67,14 @@ It allows users to send and receive messages instantly in a clean, responsive in
 ---
 
 ## 📷 Screenshots
+<img width="1920" height="1080" alt="Screenshot (127)" src="https://github.com/user-attachments/assets/a1c026dc-b3e0-4711-af8e-d60a2342e4ef" />
+<img width="1920" height="1080" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/315d0cc7-15dc-421f-861d-89f9282489c8" />
+<img width="1920" height="1080" alt="Screenshot (129)" src="https://github.com/user-attachments/assets/9510c262-c0fa-41bb-a186-1a8fe347cd34" />
 
+---
 
 ## 📡 Deployment
-- The project is deployed using:
+- The project is  deployed using:
 - Frontend: Render (Vite + React)
 - Backend: Render (Node.js + Express)
 - Database: MongoDB Atlas
@@ -81,3 +85,6 @@ It allows users to send and receive messages instantly in a clean, responsive in
 - B.Tech CSE | MERN Stack Developer
 - [LinkedIn](https://www.linkedin.com/in/ayush-yadav-143536253/) | [Github](https://github.com/Ayushyadav89)
 - Mail Id - 2k22.cse.2213307@gmail.com
+
+
+
