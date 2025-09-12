@@ -76,7 +76,7 @@ It allows users to send and receive messages instantly in a clean, responsive in
 ## 📡 Deployment
 - The project is  deployed using:
 - Frontend: Render (Vite + React)
-- Backend: Render (Node.js + Express)
+- Backend: Render(Node.js + Express)
 - Database: MongoDB Atlas
 - Live link: https://quickchat-qr2g.onrender.com/
 
@@ -85,6 +85,7 @@ It allows users to send and receive messages instantly in a clean, responsive in
 - B.Tech CSE | MERN Stack Developer
 - [LinkedIn](https://www.linkedin.com/in/ayush-yadav-143536253/) | [Github](https://github.com/Ayushyadav89)
 - Mail Id - 2k22.cse.2213307@gmail.com
+
 
 
 
